@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>スライドショー</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/1d4cfdb42e.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="title">
+      東京都内有名スイーツスライドショー
+    </div>
+    <div class="main">
+      <button onclick="left()"><</button>
+      <img src="https://www.waseda.jp/top/assets/uploads/2014/03/hidemaro-360x270.jpg" alt="">
+      <button onclick="right()">></button>
+    </div>
+    <div class="control">
+      <button onclick="play()">
+        <i class="fa-solid fa-play"></i>
+        <!-- 再生 -->
+      </button> 
+      <button onclick="stop()">
+        <i class="fa-solid fa-stop"></i>
+       <!--停止-->
+      <button onclick="reset()">
+        <i class="fa-solid fa-apple-whole"></i>
+    </div>
+    <script src="js/slidShow.js"></script>
+  </body>
+</html>
